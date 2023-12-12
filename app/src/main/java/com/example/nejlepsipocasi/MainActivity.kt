@@ -96,6 +96,7 @@ class MainActivity : ComponentActivity() {
                                 Button(onClick = { /*TODO*/ }) {
                                     Text(text = "Tlačítko, co nic nedělá")
                                 }
+                                Icon(painter = painterResource(id = R.drawable.ic_cloud), contentDescription = "iokna konflikt")
                             }
                         }
                     }
