@@ -67,6 +67,7 @@ class MainActivity : ComponentActivity() {
                                     icon = {
                                         Icon(painter = painterResource(id = R.drawable.ic_snow), contentDescription = "Dnešní počasí")
                                     })
+
                                 NavigationBarItem(
                                     selected = false,
                                     onClick = { /*TODO*/ },
@@ -92,6 +93,9 @@ class MainActivity : ComponentActivity() {
                                     Text(text = "...")
                                 }
                                 Greeting("Android")
+                                Button(onClick = { /*TODO*/ }) {
+                                    Text(text = "Tlačítko, co nic nedělá")
+                                }
                             }
                         }
                     }
