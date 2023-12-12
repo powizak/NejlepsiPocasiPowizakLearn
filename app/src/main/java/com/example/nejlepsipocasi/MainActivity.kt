@@ -98,6 +98,8 @@ class MainActivity : ComponentActivity() {
                                 }
                                 Icon(painter = painterResource(id = R.drawable.ic_cloud), contentDescription = "iokna konflikt")
                                 Text(text = "skdjklasd")
+                                
+                                Text(text = "Další text na nic")
                             }
                         }
                     }
