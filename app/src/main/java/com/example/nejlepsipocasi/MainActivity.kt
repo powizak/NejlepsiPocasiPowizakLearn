@@ -67,6 +67,7 @@ class MainActivity : ComponentActivity() {
                                     icon = {
                                         Icon(painter = painterResource(id = R.drawable.ic_snow), contentDescription = "Dnešní počasí")
                                     })
+
                                 NavigationBarItem(
                                     selected = false,
                                     onClick = { /*TODO*/ },
