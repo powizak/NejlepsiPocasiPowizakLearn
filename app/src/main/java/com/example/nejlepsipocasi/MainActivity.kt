@@ -93,6 +93,9 @@ class MainActivity : ComponentActivity() {
                                     Text(text = "...")
                                 }
                                 Greeting("Android")
+                                Button(onClick = { /*TODO*/ }) {
+                                    Text(text = "Tlačítko, co nic nedělá")
+                                }
                             }
                         }
                     }
